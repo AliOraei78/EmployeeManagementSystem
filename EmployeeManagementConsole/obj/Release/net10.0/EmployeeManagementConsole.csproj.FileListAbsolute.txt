@@ -1,0 +1,15 @@
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\bin\Release\net10.0\EmployeeManagementConsole.exe
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\bin\Release\net10.0\EmployeeManagementConsole.deps.json
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\bin\Release\net10.0\EmployeeManagementConsole.runtimeconfig.json
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\bin\Release\net10.0\EmployeeManagementConsole.dll
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\bin\Release\net10.0\EmployeeManagementConsole.pdb
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.sourcelink.json
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.dll
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\refint\EmployeeManagementConsole.dll
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.pdb
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\EmployeeManagementConsole.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\C# projects\EmployeeManagementSystem\EmployeeManagementConsole\obj\Release\net10.0\ref\EmployeeManagementConsole.dll

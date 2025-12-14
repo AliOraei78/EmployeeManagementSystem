@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\C# projects\\EmployeeManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A759203-F1ED-49DD-A3A3-234857340A68}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|c:\\users\\asus\\desktop\\c# projects\\employeemanagementsystem\\employeemanagementconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A759203-F1ED-49DD-A3A3-234857340A68}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|solutionrelative:employeemanagementconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61302958-52DF-402F-C075-97371A3A7E97}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|c:\\users\\asus\\desktop\\c# projects\\employeemanagementsystem\\employeemanagementconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61302958-52DF-402F-C075-97371A3A7E97}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|solutionrelative:employeemanagementconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,9 +36,9 @@
               "RelativeDocumentMoniker": "EmployeeManagementConsole\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\C# projects\\EmployeeManagementSystem\\EmployeeManagementConsole\\Program.cs",
               "RelativeToolTip": "EmployeeManagementConsole\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T08:48:49.49Z",
+              "WhenOpened": "2025-12-14T09:26:38.162Z",
               "EditorCaption": ""
             }
           ]
