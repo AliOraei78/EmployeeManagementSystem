@@ -2,6 +2,7 @@
 {
     public static void Main(string[] args)
     {
+        var printer = new EmployeePrinter();
         List<Employee> employees = new List<Employee>()
         {
             new Developer()
@@ -27,15 +28,25 @@
                 Id = 222,
                 Salary = 90
             },
+            new Consultant()
+            {
+                Name = "Data Consultant",
+                Age = 60,
+                Id = 21,
+                Salary = 893773,
+                Field = "Income"
+            }
         };
         foreach( var employee in employees )
         {
-            employee.Introduce();
-            employee.Work();
+            printer.PrintWork(employee);
+            printer.PrintIntroduce(employee);
             if(employee is Developer)
                 (employee as Developer)?.WriteCode();
             if( employee is Manager)
                 (employee as Manager)?.ManageTeam();
+            if( employee is Consultant)
+                (employee as Consultant)?.Advise();
             Console.WriteLine("---------");
         }
 

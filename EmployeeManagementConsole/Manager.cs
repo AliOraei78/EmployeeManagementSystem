@@ -10,7 +10,7 @@
     public override void Introduce()
     {
         base.Introduce();
-        Console.WriteLine($"I like managing.");
+        Console.WriteLine($"I like cats.");
     }
 
     public void ManageTeam()

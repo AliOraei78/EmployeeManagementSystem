@@ -4,13 +4,13 @@
 
     public override void Work()
     {
-        Console.WriteLine($"I am working with C#.");
+        Console.WriteLine($"I want to learn C#.");
     }
 
     public override void Introduce()
     {
         base.Introduce();
-        Console.WriteLine($"I like programming.");
+        Console.WriteLine($"I like dogs.");
     }
 
     public void WriteCode()
