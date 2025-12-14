@@ -2,8 +2,5 @@
 {
     public string Name { get; set; } = string.Empty;
     public int Age { get; set; }
-    public virtual void Introduce()
-    {
-        Console.WriteLine($"My name is {Name} and i am {Age} years old.");
-    }
+    public virtual void Introduce() => Console.WriteLine($"My name is {Name} and i am {Age} years old.");
 }

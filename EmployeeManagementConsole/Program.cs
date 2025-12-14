@@ -2,42 +2,44 @@
 {
     public static void Main(string[] args)
     {
+        IEmployeeRepository repository = new InMemoryEmployeeRepository();
         var printer = new EmployeePrinter();
-        List<Employee> employees = new List<Employee>()
+
+        repository.Add(new Developer()
         {
-            new Developer()
-            {
-                Name = "Java Developer",
-                Age = 24,
-                Id = 2,
-                Salary = 565555,
-                ProgrammingLang = "Java"
-            },
-            new Manager()
-            {
-                Name = "Regional Managers)",
-                Age = 27,
-                Id = 3,
-                Salary = 43433333,
-                TeamSize = 22
-            },
-            new Intern()
-            {
-                Name = "Intern",
-                Age = 14,
-                Id = 222,
-                Salary = 90
-            },
-            new Consultant()
-            {
-                Name = "Data Consultant",
-                Age = 60,
-                Id = 21,
-                Salary = 893773,
-                Field = "Income"
-            }
-        };
-        foreach( var employee in employees )
+            Name = "Java Developer",
+            Age = 24,
+            Id = 2,
+            Salary = 565555,
+            ProgrammingLang = "Java"
+        });
+        repository.Add(new Manager()
+        {
+            Name = "Regional Managers)",
+            Age = 27,
+            Id = 3,
+            Salary = 43433333,
+            TeamSize = 22
+        });
+        repository.Add(new Intern()
+        {
+            Name = "Intern",
+            Age = 14,
+            Id = 222,
+            Salary = 90
+        });
+        repository.Add(new Consultant()
+        {
+            Name = "Data Consultant",
+            Age = 60,
+            Id = 21,
+            Salary = 893773,
+            Field = "Income"
+        });
+
+        var employees = repository.GetAll();
+
+        foreach ( var employee in employees )
         {
             printer.PrintWork(employee);
             printer.PrintIntroduce(employee);
@@ -49,6 +51,10 @@
                 (employee as Consultant)?.Advise();
             Console.WriteLine("---------");
         }
+
+        var employeeById = repository.GetById(2);
+        printer.PrintWork(employeeById);
+        Console.WriteLine("---------");
 
         List<IManageable> manageables = new List<IManageable>()
         {

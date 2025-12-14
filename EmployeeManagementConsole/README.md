@@ -36,3 +36,21 @@ Adding a new employee type would require modifying printing logic in multiple pl
 - The system is **open for extension** (new employee types) but **closed for modification** (existing code untouched).
 
 OCP is satisfied through polymorphism and proper abstraction.
+
+## Interface Segregation Principle (ISP)
+
+Interfaces are small and focused:
+- `IManageable` for management actions
+- `IDevelop` for development actions
+
+No class is forced to implement unnecessary methods.
+
+## Dependency Inversion Principle (DIP)
+
+High-level module (Program) depends on abstraction (`IEmployeeRepository`).
+Low-level implementation (`InMemoryEmployeeRepository`) can be swapped easily.
+
+### Repository Pattern
+- Data access separated from business logic.
+- Current implementation: in-memory list.
+- Methods: `GetAll()`, `Add()`, `GetById()`.

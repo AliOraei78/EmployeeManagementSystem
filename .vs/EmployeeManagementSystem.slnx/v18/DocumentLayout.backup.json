@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{61302958-52DF-402F-C075-97371A3A7E97}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|solutionrelative:employeemanagementconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61302958-52DF-402F-C075-97371A3A7E97}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|c:\\users\\asus\\desktop\\c# projects\\employeemanagementsystem\\employeemanagementconsole\\consultant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61302958-52DF-402F-C075-97371A3A7E97}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|solutionrelative:employeemanagementconsole\\consultant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61302958-52DF-402F-C075-97371A3A7E97}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|c:\\users\\asus\\desktop\\c# projects\\employeemanagementsystem\\employeemanagementconsole\\inmemoryemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61302958-52DF-402F-C075-97371A3A7E97}|EmployeeManagementConsole\\EmployeeManagementConsole.csproj|solutionrelative:employeemanagementconsole\\inmemoryemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Consultant.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C# projects\\EmployeeManagementSystem\\EmployeeManagementConsole\\Consultant.cs",
-              "RelativeDocumentMoniker": "EmployeeManagementConsole\\Consultant.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C# projects\\EmployeeManagementSystem\\EmployeeManagementConsole\\Consultant.cs",
-              "RelativeToolTip": "EmployeeManagementConsole\\Consultant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAArAAAAAAAAAA==",
+              "Title": "InMemoryEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\C# projects\\EmployeeManagementSystem\\EmployeeManagementConsole\\InMemoryEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementConsole\\InMemoryEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\C# projects\\EmployeeManagementSystem\\EmployeeManagementConsole\\InMemoryEmployeeRepository.cs",
+              "RelativeToolTip": "EmployeeManagementConsole\\InMemoryEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T12:48:00.459Z",
+              "WhenOpened": "2025-12-14T13:29:46.792Z",
               "EditorCaption": ""
             },
             {
@@ -53,9 +53,9 @@
               "RelativeDocumentMoniker": "EmployeeManagementConsole\\Program.cs",
               "ToolTip": "C:\\Users\\ASUS\\Desktop\\C# projects\\EmployeeManagementSystem\\EmployeeManagementConsole\\Program.cs",
               "RelativeToolTip": "EmployeeManagementConsole\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T12:47:55.77Z",
+              "WhenOpened": "2025-12-14T13:13:09.419Z",
               "EditorCaption": ""
             }
           ]

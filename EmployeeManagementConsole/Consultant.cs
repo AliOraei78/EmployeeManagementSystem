@@ -2,10 +2,7 @@
 {
     public string Field { get; set; } = string.Empty;
 
-    public override void Work()
-    {
-        Console.WriteLine($"I am a data and statistics consultant.");
-    }
+    public override void Work() => Console.WriteLine($"I am a data and statistics consultant.");
 
     public override void Introduce()
     {
@@ -13,8 +10,5 @@
         Console.WriteLine($"I like birds.");
     }
 
-    public void Advise()
-    {
-        Console.WriteLine($"I am advising the company to achieve better {Field}.");
-    }
+    public void Advise() => Console.WriteLine($"I am advising the company to achieve better {Field}.");
 }
