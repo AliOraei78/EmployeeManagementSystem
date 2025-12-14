@@ -1,67 +1,38 @@
-﻿### Liskov Substitution Principle (LSP)
+﻿# Employee Management System - C# OOP & SOLID Principles Showcase
 
-#### Violation Example
-The `Intern` class inherits from `Employee` but throws an exception in the `Work()` method.
+This project is a practical demonstration of advanced Object-Oriented Programming (OOP) concepts and SOLID principles in C#.  
+It features a flexible employee hierarchy with real-world design patterns.
 
-This violates LSP because:
-- Subclasses should be substitutable for their base class.
-- When we use `Intern` in a list of `Employee` and call `Work()`, the program crashes unexpectedly.
+## Key Concepts Covered
 
-#### Fix
-To comply with LSP:
-- Implemented `Work()` without exception.
-- Now any `Employee` subclass can safely replace `Employee` without breaking behavior.
+### SOLID Principles
+- **Single Responsibility Principle (SRP)**: `EmployeePrinter` handles all output, keeping employee classes focused on behavior.
+- **Open-Closed Principle (OCP)**: New employee types (e.g., `Consultant`) added without modifying existing code.
+- **Liskov Substitution Principle (LSP)**: Demonstrated with violation/fix example using `Intern` class.
+- **Interface Segregation Principle (ISP)**: Small, focused interfaces (`IManageable`, `IDevelop`).
+- **Dependency Inversion Principle (DIP)**: Program depends on `IEmployeeRepository` abstraction.
 
-LSP ensures code remains predictable and maintainable when using polymorphism.
+### Design Patterns
+- **Factory Pattern**: Centralized employee creation with strategy injection (`EmployeeFactory`).
+- **Strategy Pattern**: Flexible salary calculation via injectable strategies.
+- **Decorator Pattern**: Dynamic addition of bonus and insurance without modifying core classes.
+- **Repository Pattern**: Data access separated (in-memory implementation).
+- **Singleton Pattern**: Thread-safe logger (`CompanyLogger`).
 
-## Single Responsibility Principle (SRP)
+## Features
+- Abstract base class `Employee` with polymorphic `Introduce()` and `Work()`.
+- Multiple inheritance paths: Manager, Developer, Consultant, Intern.
+- Interface-based operations for specific behaviors.
+- In-memory repository for employee management.
+- Comprehensive logging using Singleton.
 
-### Violation
-Employee subclasses (Manager, Developer) were responsible for both business logic and printing/output.
+## How to Run
+1. Clone the repository.
+2. Open `EmployeeManagementSystem.sln` in Visual Studio.
+3. Set `EmployeeManagementConsole` as startup project.
+4. Run (Ctrl+F5) – observe polymorphic behavior, salary calculation, decoration, and logging.
 
-### Fix
-- Created a dedicated `EmployeePrinter` class responsible **only** for displaying information.
-- Employee classes now focus solely on behavior and data.
+## Why This Project?
+Perfect for discussing OOP, SOLID, and design patterns.
 
-Each class has only one reason to change → SRP achieved.
-
-## Open-Closed Principle (OCP)
-
-### Violation
-Adding a new employee type would require modifying printing logic in multiple places.
-
-### Fix
-- Added a new `Consultant` class with its own behavior.
-- No changes needed in `EmployeePrinter` or main program logic (only an optional type check for special methods).
-- The system is **open for extension** (new employee types) but **closed for modification** (existing code untouched).
-
-OCP is satisfied through polymorphism and proper abstraction.
-
-## Interface Segregation Principle (ISP)
-
-Interfaces are small and focused:
-- `IManageable` for management actions
-- `IDevelop` for development actions
-
-No class is forced to implement unnecessary methods.
-
-## Dependency Inversion Principle (DIP)
-
-High-level module (Program) depends on abstraction (`IEmployeeRepository`).
-Low-level implementation (`InMemoryEmployeeRepository`) can be swapped easily.
-
-### Repository Pattern
-- Data access separated from business logic.
-- Current implementation: in-memory list.
-- Methods: `GetAll()`, `Add()`, `GetById()`.
-
-## Design Patterns
-
-### Factory Pattern
-Centralized employee creation based on type string.
-
-### Strategy Pattern
-Different salary calculation logic for each employee type (injectable).
-
-### Decorator Pattern
-Dynamically add bonus and insurance without modifying base classes.
+Built with .NET 10 – December 2025
