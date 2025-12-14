@@ -19,7 +19,14 @@
                 Id = 3,
                 Salary = 43433333,
                 TeamSize = 22
-            }
+            },
+            new Intern()
+            {
+                Name = "Intern",
+                Age = 14,
+                Id = 222,
+                Salary = 90
+            },
         };
         foreach( var employee in employees )
         {

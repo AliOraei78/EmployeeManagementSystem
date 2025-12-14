@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmployeeManagementConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f442416307f0897b260d3447dfe919c86b1cd3c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57792b60757d60ec3a47eb7f0034fdb519f4f9b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmployeeManagementConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmployeeManagementConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
