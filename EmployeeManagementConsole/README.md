@@ -54,3 +54,14 @@ Low-level implementation (`InMemoryEmployeeRepository`) can be swapped easily.
 - Data access separated from business logic.
 - Current implementation: in-memory list.
 - Methods: `GetAll()`, `Add()`, `GetById()`.
+
+## Design Patterns
+
+### Factory Pattern
+Centralized employee creation based on type string.
+
+### Strategy Pattern
+Different salary calculation logic for each employee type (injectable).
+
+### Decorator Pattern
+Dynamically add bonus and insurance without modifying base classes.

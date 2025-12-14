@@ -54,7 +54,7 @@
 
         var employeeById = repository.GetById(2);
         printer.PrintWork(employeeById);
-        Console.WriteLine("---------");
+        Console.WriteLine("---------\n\n");
 
         List<IManageable> manageables = new List<IManageable>()
         {
@@ -105,5 +105,27 @@
             developer.WriteCode();
             Console.WriteLine("---------");
         }
+        Console.WriteLine("\n\n");
+
+        var dev = EmployeeFactory.CreateEmployee("Developer", "Factory Developer", 18, 44, 654654, "JS");
+        var mgr = EmployeeFactory.CreateEmployee("Manager", "Factory Manger", 43, 21, 2123213, "3");
+        var con = EmployeeFactory.CreateEmployee("Consultant", "Factory Consultant", 87, 876868, 1223, "outcome");
+
+        printer.PrintIntroduce(dev);
+        printer.PrintIntroduce(mgr);
+        printer.PrintIntroduce(con);
+        Console.WriteLine("---------\n\n");
+
+        Console.WriteLine(dev.GetAnnualSalary());
+        Console.WriteLine("---------\n\n");
+
+        Employee decoratedDev = new InsuranceDecorator(
+            new BonusDecorator(dev, 0.25m)
+            );
+        printer.PrintIntroduce(decoratedDev);
+        printer.PrintWork(decoratedDev);
+        Console.WriteLine($"Annual salary with bonus: {decoratedDev.GetAnnualSalary():C}");
+        Console.WriteLine("---------\n\n");
+
     }
 }
