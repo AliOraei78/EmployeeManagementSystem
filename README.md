@@ -1,4 +1,4 @@
-ï»¿# Employee Management System - C# OOP & SOLID Principles Showcase
+# Employee Management System - C# OOP & SOLID Principles Showcase
 
 This project is a practical demonstration of advanced Object-Oriented Programming (OOP) concepts and SOLID principles in C#.  
 It features a flexible employee hierarchy with real-world design patterns.
@@ -30,9 +30,9 @@ It features a flexible employee hierarchy with real-world design patterns.
 1. Clone the repository.
 2. Open `EmployeeManagementSystem.sln` in Visual Studio.
 3. Set `EmployeeManagementConsole` as startup project.
-4. Run (Ctrl+F5) â€“ observe polymorphic behavior, salary calculation, decoration, and logging.
+4. Run (Ctrl+F5) – observe polymorphic behavior, salary calculation, decoration, and logging.
 
 ## Why This Project?
 Perfect for discussing OOP, SOLID, and design patterns.
 
-Built with .NET 10 â€“ December 2025
+Built with .NET 10 – December 2025
